@@ -102,7 +102,7 @@ body > footer {
 .fa {
     font-size: 30px;
     text-align: center;
-    text-decoration: dotted;
+    text-decoration: none;
   }
   
   /* Add a hover effect if you want */
