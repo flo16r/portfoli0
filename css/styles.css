@@ -161,6 +161,14 @@ text-decoration: none;
 line-height: 3rem;
 }
 
+@media only screen and (max-width: 480px) {
+    #scrollUp {
+      margin-right: 2rem;
+    }
+  }
+
+  /*hover*/
+
 .btn {
     color: #52008d;
     text-decoration: none;
