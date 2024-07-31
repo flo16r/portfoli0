@@ -150,24 +150,7 @@ body > footer {
 }
 
 
-#scrollUp
-{
-position: fixed;
-bottom : 6rem;
-margin-right: 12rem;
-right: -600px;
-opacity: 0;
-text-decoration: none;
-line-height: 3rem;
-}
-
-@media only screen and (max-width: 480px) {
-    #scrollUp {
-      margin-right: 2rem;
-    }
-  }
-
-  /*hover*/
+/*hover a*/
 
 .btn {
     color: #52008d;

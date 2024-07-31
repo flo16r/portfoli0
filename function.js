@@ -16,24 +16,3 @@ function afficheMenu(obj){
 	}
 
 }
-
-jQuery(function(){
-    $(function () {
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 2000 ) { 
-                $('#scrollUp').css('right','10px')
-                $( "#scrollUp" ).animate({
-                    opacity: 1,
-                  }, 200, function()
-                  {
-                    // Animation complete.
-                  });
-            } else { 
-                $('#scrollUp').removeAttr( 'style' )
-                
-            }
-
-        });
-    });
-});
-
